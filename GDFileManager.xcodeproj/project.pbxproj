@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC6871D1DD2028B003F65A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC6871C1DD2028B003F65A2 /* main.m */; };
+		CFC687201DD2028B003F65A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC6871F1DD2028B003F65A2 /* AppDelegate.m */; };
+		CFC687231DD2028B003F65A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC687221DD2028B003F65A2 /* ViewController.m */; };
+		CFC687261DD2028B003F65A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC687241DD2028B003F65A2 /* Main.storyboard */; };
+		CFC687291DD2028B003F65A2 /* GDFileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFC687271DD2028B003F65A2 /* GDFileManager.xcdatamodeld */; };
+		CFC6872B1DD2028B003F65A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC6872A1DD2028B003F65A2 /* Assets.xcassets */; };
+		CFC6872E1DD2028B003F65A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC6872C1DD2028B003F65A2 /* LaunchScreen.storyboard */; };
+		CFC687391DD2028B003F65A2 /* GDFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC687381DD2028B003F65A2 /* GDFileManagerTests.m */; };
+		CFC687441DD2028B003F65A2 /* GDFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC687431DD2028B003F65A2 /* GDFileManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC687351DD2028B003F65A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC687101DD2028A003F65A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC687171DD2028B003F65A2;
+			remoteInfo = GDFileManager;
+		};
+		CFC687401DD2028B003F65A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC687101DD2028A003F65A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC687171DD2028B003F65A2;
+			remoteInfo = GDFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC687181DD2028B003F65A2 /* GDFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC6871C1DD2028B003F65A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFC6871E1DD2028B003F65A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFC6871F1DD2028B003F65A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFC687211DD2028B003F65A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFC687221DD2028B003F65A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFC687251DD2028B003F65A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC687281DD2028B003F65A2 /* GDFileManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GDFileManager.xcdatamodel; sourceTree = "<group>"; };
+		CFC6872A1DD2028B003F65A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC6872D1DD2028B003F65A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC6872F1DD2028B003F65A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC687341DD2028B003F65A2 /* GDFileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDFileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC687381DD2028B003F65A2 /* GDFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDFileManagerTests.m; sourceTree = "<group>"; };
+		CFC6873A1DD2028B003F65A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC6873F1DD2028B003F65A2 /* GDFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC687431DD2028B003F65A2 /* GDFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDFileManagerUITests.m; sourceTree = "<group>"; };
+		CFC687451DD2028B003F65A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC687151DD2028B003F65A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC687311DD2028B003F65A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6873C1DD2028B003F65A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC6870F1DD2028A003F65A2 = {
+			isa = PBXGroup;
+			children = (
+				CFC6871A1DD2028B003F65A2 /* GDFileManager */,
+				CFC687371DD2028B003F65A2 /* GDFileManagerTests */,
+				CFC687421DD2028B003F65A2 /* GDFileManagerUITests */,
+				CFC687191DD2028B003F65A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC687191DD2028B003F65A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC687181DD2028B003F65A2 /* GDFileManager.app */,
+				CFC687341DD2028B003F65A2 /* GDFileManagerTests.xctest */,
+				CFC6873F1DD2028B003F65A2 /* GDFileManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC6871A1DD2028B003F65A2 /* GDFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6871E1DD2028B003F65A2 /* AppDelegate.h */,
+				CFC6871F1DD2028B003F65A2 /* AppDelegate.m */,
+				CFC687211DD2028B003F65A2 /* ViewController.h */,
+				CFC687221DD2028B003F65A2 /* ViewController.m */,
+				CFC687241DD2028B003F65A2 /* Main.storyboard */,
+				CFC6872A1DD2028B003F65A2 /* Assets.xcassets */,
+				CFC6872C1DD2028B003F65A2 /* LaunchScreen.storyboard */,
+				CFC6872F1DD2028B003F65A2 /* Info.plist */,
+				CFC687271DD2028B003F65A2 /* GDFileManager.xcdatamodeld */,
+				CFC6871B1DD2028B003F65A2 /* Supporting Files */,
+			);
+			path = GDFileManager;
+			sourceTree = "<group>";
+		};
+		CFC6871B1DD2028B003F65A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6871C1DD2028B003F65A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFC687371DD2028B003F65A2 /* GDFileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC687381DD2028B003F65A2 /* GDFileManagerTests.m */,
+				CFC6873A1DD2028B003F65A2 /* Info.plist */,
+			);
+			path = GDFileManagerTests;
+			sourceTree = "<group>";
+		};
+		CFC687421DD2028B003F65A2 /* GDFileManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC687431DD2028B003F65A2 /* GDFileManagerUITests.m */,
+				CFC687451DD2028B003F65A2 /* Info.plist */,
+			);
+			path = GDFileManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC687171DD2028B003F65A2 /* GDFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC687481DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManager" */;
+			buildPhases = (
+				CFC687141DD2028B003F65A2 /* Sources */,
+				CFC687151DD2028B003F65A2 /* Frameworks */,
+				CFC687161DD2028B003F65A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDFileManager;
+			productName = GDFileManager;
+			productReference = CFC687181DD2028B003F65A2 /* GDFileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC687331DD2028B003F65A2 /* GDFileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC6874B1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerTests" */;
+			buildPhases = (
+				CFC687301DD2028B003F65A2 /* Sources */,
+				CFC687311DD2028B003F65A2 /* Frameworks */,
+				CFC687321DD2028B003F65A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC687361DD2028B003F65A2 /* PBXTargetDependency */,
+			);
+			name = GDFileManagerTests;
+			productName = GDFileManagerTests;
+			productReference = CFC687341DD2028B003F65A2 /* GDFileManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC6873E1DD2028B003F65A2 /* GDFileManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC6874E1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerUITests" */;
+			buildPhases = (
+				CFC6873B1DD2028B003F65A2 /* Sources */,
+				CFC6873C1DD2028B003F65A2 /* Frameworks */,
+				CFC6873D1DD2028B003F65A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC687411DD2028B003F65A2 /* PBXTargetDependency */,
+			);
+			name = GDFileManagerUITests;
+			productName = GDFileManagerUITests;
+			productReference = CFC6873F1DD2028B003F65A2 /* GDFileManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC687101DD2028A003F65A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Prosenjit Goswami";
+				TargetAttributes = {
+					CFC687171DD2028B003F65A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CFC687331DD2028B003F65A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFC687171DD2028B003F65A2;
+					};
+					CFC6873E1DD2028B003F65A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFC687171DD2028B003F65A2;
+					};
+				};
+			};
+			buildConfigurationList = CFC687131DD2028A003F65A2 /* Build configuration list for PBXProject "GDFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC6870F1DD2028A003F65A2;
+			productRefGroup = CFC687191DD2028B003F65A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC687171DD2028B003F65A2 /* GDFileManager */,
+				CFC687331DD2028B003F65A2 /* GDFileManagerTests */,
+				CFC6873E1DD2028B003F65A2 /* GDFileManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC687161DD2028B003F65A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC6872E1DD2028B003F65A2 /* LaunchScreen.storyboard in Resources */,
+				CFC6872B1DD2028B003F65A2 /* Assets.xcassets in Resources */,
+				CFC687261DD2028B003F65A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC687321DD2028B003F65A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6873D1DD2028B003F65A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC687141DD2028B003F65A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC687291DD2028B003F65A2 /* GDFileManager.xcdatamodeld in Sources */,
+				CFC687231DD2028B003F65A2 /* ViewController.m in Sources */,
+				CFC687201DD2028B003F65A2 /* AppDelegate.m in Sources */,
+				CFC6871D1DD2028B003F65A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC687301DD2028B003F65A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC687391DD2028B003F65A2 /* GDFileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6873B1DD2028B003F65A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC687441DD2028B003F65A2 /* GDFileManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC687361DD2028B003F65A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC687171DD2028B003F65A2 /* GDFileManager */;
+			targetProxy = CFC687351DD2028B003F65A2 /* PBXContainerItemProxy */;
+		};
+		CFC687411DD2028B003F65A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC687171DD2028B003F65A2 /* GDFileManager */;
+			targetProxy = CFC687401DD2028B003F65A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFC687241DD2028B003F65A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC687251DD2028B003F65A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC6872C1DD2028B003F65A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC6872D1DD2028B003F65A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC687461DD2028B003F65A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFC687471DD2028B003F65A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC687491DD2028B003F65A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDFileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFC6874A1DD2028B003F65A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDFileManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFC6874C1DD2028B003F65A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDFileManager.app/GDFileManager";
+			};
+			name = Debug;
+		};
+		CFC6874D1DD2028B003F65A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDFileManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDFileManager.app/GDFileManager";
+			};
+			name = Release;
+		};
+		CFC6874F1DD2028B003F65A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDFileManager;
+			};
+			name = Debug;
+		};
+		CFC687501DD2028B003F65A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDFileManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDFileManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC687131DD2028A003F65A2 /* Build configuration list for PBXProject "GDFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC687461DD2028B003F65A2 /* Debug */,
+				CFC687471DD2028B003F65A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC687481DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC687491DD2028B003F65A2 /* Debug */,
+				CFC6874A1DD2028B003F65A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC6874B1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6874C1DD2028B003F65A2 /* Debug */,
+				CFC6874D1DD2028B003F65A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC6874E1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6874F1DD2028B003F65A2 /* Debug */,
+				CFC687501DD2028B003F65A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFC687271DD2028B003F65A2 /* GDFileManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFC687281DD2028B003F65A2 /* GDFileManager.xcdatamodel */,
+			);
+			currentVersion = CFC687281DD2028B003F65A2 /* GDFileManager.xcdatamodel */;
+			path = GDFileManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFC687101DD2028A003F65A2 /* Project object */;
+}
