@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0542BF6343F4B8AEDAA4F7FE /* libPods-GDFileManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133FEF9E7E0EEA4F37D6B66E /* libPods-GDFileManager.a */; };
 		CFC6871D1DD2028B003F65A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC6871C1DD2028B003F65A2 /* main.m */; };
 		CFC687201DD2028B003F65A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC6871F1DD2028B003F65A2 /* AppDelegate.m */; };
 		CFC687231DD2028B003F65A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC687221DD2028B003F65A2 /* ViewController.m */; };
@@ -14,28 +15,12 @@
 		CFC687291DD2028B003F65A2 /* GDFileManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFC687271DD2028B003F65A2 /* GDFileManager.xcdatamodeld */; };
 		CFC6872B1DD2028B003F65A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC6872A1DD2028B003F65A2 /* Assets.xcassets */; };
 		CFC6872E1DD2028B003F65A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC6872C1DD2028B003F65A2 /* LaunchScreen.storyboard */; };
-		CFC687391DD2028B003F65A2 /* GDFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC687381DD2028B003F65A2 /* GDFileManagerTests.m */; };
-		CFC687441DD2028B003F65A2 /* GDFileManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC687431DD2028B003F65A2 /* GDFileManagerUITests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CFC687351DD2028B003F65A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFC687101DD2028A003F65A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFC687171DD2028B003F65A2;
-			remoteInfo = GDFileManager;
-		};
-		CFC687401DD2028B003F65A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFC687101DD2028A003F65A2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFC687171DD2028B003F65A2;
-			remoteInfo = GDFileManager;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		133FEF9E7E0EEA4F37D6B66E /* libPods-GDFileManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDFileManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38657E63CB132ECA4B76EDE0 /* Pods-GDFileManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDFileManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDFileManager/Pods-GDFileManager.debug.xcconfig"; sourceTree = "<group>"; };
+		6733462ACDB268925879E649 /* Pods-GDFileManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDFileManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDFileManager/Pods-GDFileManager.release.xcconfig"; sourceTree = "<group>"; };
 		CFC687181DD2028B003F65A2 /* GDFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC6871C1DD2028B003F65A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFC6871E1DD2028B003F65A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,10 +32,8 @@
 		CFC6872A1DD2028B003F65A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC6872D1DD2028B003F65A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC6872F1DD2028B003F65A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFC687341DD2028B003F65A2 /* GDFileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDFileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC687381DD2028B003F65A2 /* GDFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDFileManagerTests.m; sourceTree = "<group>"; };
 		CFC6873A1DD2028B003F65A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFC6873F1DD2028B003F65A2 /* GDFileManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDFileManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC687431DD2028B003F65A2 /* GDFileManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDFileManagerUITests.m; sourceTree = "<group>"; };
 		CFC687451DD2028B003F65A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,26 +43,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC687311DD2028B003F65A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC6873C1DD2028B003F65A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0542BF6343F4B8AEDAA4F7FE /* libPods-GDFileManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C02D51EC36F425844553A00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38657E63CB132ECA4B76EDE0 /* Pods-GDFileManager.debug.xcconfig */,
+				6733462ACDB268925879E649 /* Pods-GDFileManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F19E922B2481654FCFF8D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133FEF9E7E0EEA4F37D6B66E /* libPods-GDFileManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFC6870F1DD2028A003F65A2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +74,8 @@
 				CFC687371DD2028B003F65A2 /* GDFileManagerTests */,
 				CFC687421DD2028B003F65A2 /* GDFileManagerUITests */,
 				CFC687191DD2028B003F65A2 /* Products */,
+				0C02D51EC36F425844553A00 /* Pods */,
+				5F19E922B2481654FCFF8D76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				CFC687181DD2028B003F65A2 /* GDFileManager.app */,
-				CFC687341DD2028B003F65A2 /* GDFileManagerTests.xctest */,
-				CFC6873F1DD2028B003F65A2 /* GDFileManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFC687481DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManager" */;
 			buildPhases = (
+				E31FD2F2E68C2926C1C6F31D /* Check Pods Manifest.lock */,
 				CFC687141DD2028B003F65A2 /* Sources */,
 				CFC687151DD2028B003F65A2 /* Frameworks */,
 				CFC687161DD2028B003F65A2 /* Resources */,
+				FB8C59778256722C8BF9496A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,42 +151,6 @@
 			productName = GDFileManager;
 			productReference = CFC687181DD2028B003F65A2 /* GDFileManager.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CFC687331DD2028B003F65A2 /* GDFileManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFC6874B1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerTests" */;
-			buildPhases = (
-				CFC687301DD2028B003F65A2 /* Sources */,
-				CFC687311DD2028B003F65A2 /* Frameworks */,
-				CFC687321DD2028B003F65A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFC687361DD2028B003F65A2 /* PBXTargetDependency */,
-			);
-			name = GDFileManagerTests;
-			productName = GDFileManagerTests;
-			productReference = CFC687341DD2028B003F65A2 /* GDFileManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CFC6873E1DD2028B003F65A2 /* GDFileManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFC6874E1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerUITests" */;
-			buildPhases = (
-				CFC6873B1DD2028B003F65A2 /* Sources */,
-				CFC6873C1DD2028B003F65A2 /* Frameworks */,
-				CFC6873D1DD2028B003F65A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFC687411DD2028B003F65A2 /* PBXTargetDependency */,
-			);
-			name = GDFileManagerUITests;
-			productName = GDFileManagerUITests;
-			productReference = CFC6873F1DD2028B003F65A2 /* GDFileManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -211,16 +164,6 @@
 					CFC687171DD2028B003F65A2 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-					};
-					CFC687331DD2028B003F65A2 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CFC687171DD2028B003F65A2;
-					};
-					CFC6873E1DD2028B003F65A2 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CFC687171DD2028B003F65A2;
 					};
 				};
 			};
@@ -238,8 +181,6 @@
 			projectRoot = "";
 			targets = (
 				CFC687171DD2028B003F65A2 /* GDFileManager */,
-				CFC687331DD2028B003F65A2 /* GDFileManagerTests */,
-				CFC6873E1DD2028B003F65A2 /* GDFileManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,21 +196,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFC687321DD2028B003F65A2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC6873D1DD2028B003F65A2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E31FD2F2E68C2926C1C6F31D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8C59778256722C8BF9496A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDFileManager/Pods-GDFileManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFC687141DD2028B003F65A2 /* Sources */ = {
@@ -283,36 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFC687301DD2028B003F65A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFC687391DD2028B003F65A2 /* GDFileManagerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC6873B1DD2028B003F65A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFC687441DD2028B003F65A2 /* GDFileManagerUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CFC687361DD2028B003F65A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFC687171DD2028B003F65A2 /* GDFileManager */;
-			targetProxy = CFC687351DD2028B003F65A2 /* PBXContainerItemProxy */;
-		};
-		CFC687411DD2028B003F65A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFC687171DD2028B003F65A2 /* GDFileManager */;
-			targetProxy = CFC687401DD2028B003F65A2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CFC687241DD2028B003F65A2 /* Main.storyboard */ = {
@@ -358,7 +289,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -406,7 +337,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -424,8 +355,10 @@
 		};
 		CFC687491DD2028B003F65A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38657E63CB132ECA4B76EDE0 /* Pods-GDFileManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = GDFileManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManager;
@@ -435,58 +368,14 @@
 		};
 		CFC6874A1DD2028B003F65A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6733462ACDB268925879E649 /* Pods-GDFileManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = GDFileManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CFC6874C1DD2028B003F65A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = GDFileManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDFileManager.app/GDFileManager";
-			};
-			name = Debug;
-		};
-		CFC6874D1DD2028B003F65A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = GDFileManagerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDFileManager.app/GDFileManager";
-			};
-			name = Release;
-		};
-		CFC6874F1DD2028B003F65A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GDFileManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GDFileManager;
-			};
-			name = Debug;
-		};
-		CFC687501DD2028B003F65A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GDFileManagerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PG.GDFileManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GDFileManager;
 			};
 			name = Release;
 		};
@@ -509,22 +398,7 @@
 				CFC6874A1DD2028B003F65A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CFC6874B1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFC6874C1DD2028B003F65A2 /* Debug */,
-				CFC6874D1DD2028B003F65A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		CFC6874E1DD2028B003F65A2 /* Build configuration list for PBXNativeTarget "GDFileManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFC6874F1DD2028B003F65A2 /* Debug */,
-				CFC687501DD2028B003F65A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

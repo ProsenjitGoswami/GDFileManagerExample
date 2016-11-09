@@ -1,0 +1,5 @@
+#include "ISO8601DateFormatter.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ISO8601DateFormatter" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFKissXMLRequestOperation" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AFOAuth2Client" "${PODS_ROOT}/Headers/Public/GDFileManagerKit" "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" "${PODS_ROOT}/Headers/Public/KissXML" "${PODS_ROOT}/Headers/Public/QuickDialog" "${PODS_ROOT}/Headers/Public/SSKeychain" "${PODS_ROOT}/Headers/Public/UIAlertView-Blocks"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

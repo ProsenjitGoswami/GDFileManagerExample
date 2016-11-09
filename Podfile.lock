@@ -1,0 +1,38 @@
+PODS:
+  - AFKissXMLRequestOperation (0.0.1):
+    - AFNetworking (~> 1.3)
+    - KissXML (~> 5.0)
+  - AFNetworking (1.3.4)
+  - AFOAuth2Client (1.0.0):
+    - AFNetworking (~> 1.3)
+  - GDFileManagerKit (0.0.2):
+    - AFKissXMLRequestOperation
+    - AFNetworking (~> 1.3)
+    - AFOAuth2Client
+    - ISO8601DateFormatter
+    - QuickDialog (= 0.8)
+    - SSKeychain
+    - UIAlertView-Blocks
+  - ISO8601DateFormatter (0.8)
+  - KissXML (5.1.2):
+    - KissXML/Core (= 5.1.2)
+  - KissXML/Core (5.1.2)
+  - QuickDialog (0.8)
+  - SSKeychain (1.4.1)
+  - UIAlertView-Blocks (1.0)
+
+DEPENDENCIES:
+  - GDFileManagerKit
+
+SPEC CHECKSUMS:
+  AFKissXMLRequestOperation: 8000459be2c0f1237607103d4d14f9466efe9d8c
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  AFOAuth2Client: e53bbb2da8139ebc707e0a12a14757caf3f6c6c2
+  GDFileManagerKit: 560b2feb751d238f68e1b409f74c42335687987b
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  KissXML: 246c842586bb77110e04fb88e19376d96245c856
+  QuickDialog: 5da1256355459ce7210f5be64236cc9ce91b4c34
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  UIAlertView-Blocks: 7904744fca618afbd2ec646608924f5e69d5acd1
+
+COCOAPODS: 0.38.0
